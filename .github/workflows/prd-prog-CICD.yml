@@ -2,7 +2,7 @@ name: Triggered Workflow
 
 on:
   repository_dispatch:
-    types: [trigger-test1-workflow]
+    types: [trigger-prd-prog-CICD]
 
 jobs:
   process_and_commit:
